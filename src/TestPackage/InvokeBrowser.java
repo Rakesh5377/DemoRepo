@@ -31,10 +31,11 @@ public class InvokeBrowser {
 		
 		InvokeBrowser I = new InvokeBrowser();
 		I.tearDown();
-
+		System.out.println("Hello to World!");
 	}
 
 	public void tearDown(){
 		driver.quit();
 	}
+	
 }
